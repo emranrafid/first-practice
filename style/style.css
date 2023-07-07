@@ -87,3 +87,43 @@ padding: 0px;}
     padding-top: 20px;
     background-color: antiquewhite;
 }
+.services-heading{
+    text-align: center;
+    padding-top: 20px;
+    background-color: black;
+    color: whitesmoke;
+
+}
+.box {
+    width: 240px;
+    height: 280px;
+    box-shadow: 4px 4px 15px blue;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    
+
+}
+.icon{
+    width:50px   ;
+}
+.box-text {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.btn-box {
+    margin-top: 20px;
+}
+.box-title {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+    background-color: black;
+
+
+}
