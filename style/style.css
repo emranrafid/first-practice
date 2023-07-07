@@ -70,3 +70,20 @@ padding: 0px;}
    cursor: pointer;
 
 }
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: antiquewhite;
+
+}
+.second-heading {
+    font-size: 22;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-heading {
+    text-align: center;
+    padding-top: 20px;
+    background-color: antiquewhite;
+}
