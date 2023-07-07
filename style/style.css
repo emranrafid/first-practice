@@ -1,1 +1,72 @@
-h3 { color: red;}
+* { margin: 0px;
+padding: 0px;}
+
+.menu-container {
+  background-color: rgb(15, 14, 14);
+  
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu { display: flex;
+
+}
+.item {
+    margin:10px 10px 10px 10px ;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.item:hover {color: blue;
+    cursor: pointer;
+
+}
+.logo-photo {
+    width: 100px;
+    height: 100px;
+}
+.banner-img {
+    width: 400px;
+}
+.banner-containter {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(19, 17, 17);
+    color: wheat;
+    background-image: url(./header\ background\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.heading { 
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.heading-color {
+    color: white;
+}
+.description {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+   background-color: blue;
+   cursor: pointer;
+
+}
